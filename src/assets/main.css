@@ -1,0 +1,46 @@
+@import './base.css';
+
+h2 {
+    font-size: 2em;
+    line-height: 1.8em;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.row > .column:first-of-type {
+    padding-left: 0;
+}
+.row > .column {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    flex: 10000 1 0%;
+}
+
+.q-field textarea {
+    margin-top: 6px;
+}
+
+.row > .equalInput {
+    flex: 1;
+}
+
+.row > .equalInput:nth-child(odd) {
+    margin-right: 8px;
+}
+.row > .equalInput:nth-child(even) {
+    margin-left: 8px;
+}
+
+.my-card {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+}
