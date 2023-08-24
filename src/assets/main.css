@@ -43,4 +43,24 @@ h3 {
     width: 100%;
     max-width: 250px;
     text-align: center;
+    cursor: pointer;
+}
+
+.my-card .q-icon {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.my-card:first-of-type {
+    margin-left: 0;
+}
+
+.my-card.selected {
+    background-color: #1987a0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.validationError {
+    color: var(--q-negative);
 }
