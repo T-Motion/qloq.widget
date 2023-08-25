@@ -1,7 +1,4 @@
-import { isValidEmail } from "./email";
-import { isRequired } from "./required";
+import { isValidEmail } from './email'
+import { isRequired } from './required'
 
-export {
-    isValidEmail,
-    isRequired
-};
+export { isValidEmail, isRequired }

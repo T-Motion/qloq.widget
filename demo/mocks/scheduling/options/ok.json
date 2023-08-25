@@ -1,0 +1,153 @@
+{
+    "results": [
+      {
+        "label": "vandaag",
+        "suggestions": [
+          {
+            "id": "2023:8:25:8:30",
+            "label": "Tussen <b>10:30</b> en <b>11:00</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 10,
+            "timeOptionMinute": 30
+          },
+          {
+            "id": "2023:8:25:9:0",
+            "label": "Tussen <b>11:00</b> en <b>11:30</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 11,
+            "timeOptionMinute": 0
+          },
+          {
+            "id": "2023:8:25:9:30",
+            "label": "Tussen <b>11:30</b> en <b>12:00</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 11,
+            "timeOptionMinute": 30
+          },
+          {
+            "id": "2023:8:25:10:0",
+            "label": "Tussen <b>12:00</b> en <b>12:30</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 12,
+            "timeOptionMinute": 0
+          },
+          {
+            "id": "2023:8:25:10:30",
+            "label": "Tussen <b>12:30</b> en <b>13:00</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 12,
+            "timeOptionMinute": 30
+          },
+          {
+            "id": "2023:8:25:11:0",
+            "label": "Tussen <b>13:00</b> en <b>13:30</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 13,
+            "timeOptionMinute": 0
+          },
+          {
+            "id": "2023:8:25:11:30",
+            "label": "Tussen <b>13:30</b> en <b>14:00</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 13,
+            "timeOptionMinute": 30
+          },
+          {
+            "id": "2023:8:25:12:0",
+            "label": "Tussen <b>14:00</b> en <b>14:30</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 14,
+            "timeOptionMinute": 0
+          },
+          {
+            "id": "2023:8:25:12:30",
+            "label": "Tussen <b>14:30</b> en <b>15:00</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 14,
+            "timeOptionMinute": 30
+          },
+          {
+            "id": "2023:8:25:13:0",
+            "label": "Tussen <b>15:00</b> en <b>15:30</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 15,
+            "timeOptionMinute": 0
+          },
+          {
+            "id": "2023:8:25:13:30",
+            "label": "Tussen <b>15:30</b> en <b>16:00</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 15,
+            "timeOptionMinute": 30
+          },
+          {
+            "id": "2023:8:25:14:0",
+            "label": "Tussen <b>16:00</b> en <b>16:30</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 16,
+            "timeOptionMinute": 0
+          },
+          {
+            "id": "2023:8:25:14:30",
+            "label": "Tussen <b>16:30</b> en <b>17:00</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 16,
+            "timeOptionMinute": 30
+          },
+          {
+            "id": "2023:8:25:15:0",
+            "label": "Tussen <b>17:00</b> en <b>17:30</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 17,
+            "timeOptionMinute": 0
+          },
+          {
+            "id": "2023:8:25:15:30",
+            "label": "Tussen <b>17:30</b> en <b>18:00</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 17,
+            "timeOptionMinute": 30
+          },
+          {
+            "id": "2023:8:25:16:0",
+            "label": "Tussen <b>18:00</b> en <b>18:30</b>",
+            "timeOptionDay": 25,
+            "timeOptionMonth": 8,
+            "timeOptionYear": 2023,
+            "timeOptionHour": 18,
+            "timeOptionMinute": 0
+          }
+        ]
+      }
+    ]
+  }

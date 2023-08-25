@@ -1,66 +1,66 @@
 @import './base.css';
 
 h2 {
-    font-size: 2em;
-    line-height: 1.8em;
-    margin: 0;
+  font-size: 2em;
+  line-height: 1.8em;
+  margin: 0;
 }
 
 h3 {
-    font-size: 1.5em;
-    margin: 0;
+  font-size: 1.5em;
+  margin: 0;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 .row > .column:first-of-type {
-    padding-left: 0;
+  padding-left: 0;
 }
 .row > .column {
-    padding-left: 30px;
-    padding-bottom: 30px;
-    flex: 10000 1 0%;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  flex: 10000 1 0%;
 }
 
 .q-field textarea {
-    margin-top: 6px;
+  margin-top: 6px;
 }
 
 .row > .equalInput {
-    flex: 1;
+  flex: 1;
 }
 
 .row > .equalInput:nth-child(odd) {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 .row > .equalInput:nth-child(even) {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .my-card {
-    width: 100%;
-    max-width: 250px;
-    text-align: center;
-    cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .my-card .q-icon {
-    font-size: 30px;
-    margin-bottom: 12px;
+  font-size: 30px;
+  margin-bottom: 12px;
 }
 
 .my-card:first-of-type {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .my-card.selected {
-    background-color: #1987a0;
-    box-sizing: border-box;
-    color: #fff;
+  background-color: #1987a0;
+  box-sizing: border-box;
+  color: #fff;
 }
 
 .validationError {
-    color: var(--q-negative);
+  color: var(--q-negative);
 }
