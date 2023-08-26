@@ -23,6 +23,7 @@ import { ref } from 'vue'
 import AppointmentInfo from '../components/AppointmentInfo.vue'
 import FormulaSelector from '../components/FormulaSelector.vue'
 import ContactInfo from '../components/ContactInfo.vue'
+import { createOrUpdateLead } from '../services/apiService'
 
 export default {
   components: {
@@ -34,8 +35,9 @@ export default {
     const step = ref(0);
     const isMobile = ref(false);
 
-    function goNextStep() {
-      step.value += 1
+    async function goNextStep() {
+      step.value += 1;
+      await createOrUpdateLead({ test: 'jajaja'});
     }
 
     function goPreviousStep() {
