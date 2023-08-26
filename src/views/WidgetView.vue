@@ -1,5 +1,5 @@
 <template>
-  <q-stepper v-model="step" animated>
+  <q-stepper v-model="step" :vertical="isMobile" animated>
     <q-step :name="0" title="Afspraak maken" :done="step > 0">
       <appointment-info @submit="goNextStep" />
     </q-step>
@@ -31,7 +31,8 @@ export default {
     ContactInfo
   },
   setup() {
-    const step = ref(0)
+    const step = ref(0);
+    const isMobile = ref(false);
 
     function goNextStep() {
       step.value += 1
@@ -41,10 +42,25 @@ export default {
       step.value -= 1
     }
 
+    function onResize() {
+      this.isMobile = window.innerWidth < 600;
+    }
+
     return {
       step,
+      onResize,
+      isMobile,
       goNextStep,
       goPreviousStep
+    }
+  },
+  mounted() {
+    this.onResize();
+    window.addEventListener("resize", this.onResize, { passive: true});
+  },
+  unmounted() {
+    if(typeof window !== 'undefined') {
+      window.removeEventListener("resize", this.onResize, { passive: true});
     }
   }
 }

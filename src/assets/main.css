@@ -4,11 +4,13 @@ h2 {
   font-size: 2em;
   line-height: 1.8em;
   margin: 0;
+  font-weight: 370;
 }
 
 h3 {
   font-size: 1.5em;
   margin: 0;
+  font-weight: 300;
 }
 
 .row {
@@ -64,3 +66,19 @@ h3 {
 .validationError {
   color: var(--q-negative);
 }
+
+@media only screen and (max-width: 600px) {
+  .row {
+    display: block;
+  }
+  .row > .column {
+    padding-left: 0;
+  }
+
+  .row > .equalInput:nth-child(odd) {
+    margin-right: 0;
+  }
+  .row > .equalInput:nth-child(even) {
+    margin-left: 0;
+  }
+} 
