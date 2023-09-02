@@ -32,12 +32,12 @@ export default {
     ContactInfo
   },
   setup() {
-    const step = ref(0);
-    const isMobile = ref(false);
+    const step = ref(0)
+    const isMobile = ref(false)
 
     async function goNextStep() {
-      step.value += 1;
-      await createOrUpdateLead({ test: 'jajaja'});
+      step.value += 1
+      await createOrUpdateLead({ test: 'jajaja' })
     }
 
     function goPreviousStep() {
@@ -45,7 +45,7 @@ export default {
     }
 
     function onResize() {
-      this.isMobile = window.innerWidth < 600;
+      this.isMobile = window.innerWidth < 600
     }
 
     return {
@@ -57,12 +57,12 @@ export default {
     }
   },
   mounted() {
-    this.onResize();
-    window.addEventListener("resize", this.onResize, { passive: true});
+    this.onResize()
+    window.addEventListener('resize', this.onResize, { passive: true })
   },
   unmounted() {
-    if(typeof window !== 'undefined') {
-      window.removeEventListener("resize", this.onResize, { passive: true});
+    if (typeof window !== 'undefined') {
+      window.removeEventListener('resize', this.onResize, { passive: true })
     }
   }
 }

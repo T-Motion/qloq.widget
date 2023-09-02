@@ -67,6 +67,66 @@ h3 {
   color: var(--q-negative);
 }
 
+.pill {
+  border-radius: 20px;  
+  border: 1px solid #bfbfbf;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.pill:hover{
+  background-color: #eeeeee;
+}
+
+.appointmentSelector {
+  max-width: 380px;
+}
+.appointmentSelector label {
+  display: block;
+  padding-bottom: 12px;
+  color: #747474;
+  font-size: 17px;
+}
+.monthNavigation {
+  padding-bottom: 12px;
+  display: flex;
+}
+.monthNavigation > span {
+  font-weight: bold;
+  flex: 1;
+  font-size: 20px;
+}
+.monthNavigation .nav i {
+  font-size: 24px;
+  color: #747474;
+}
+.month {
+  display: flex;
+  padding-bottom: 16px;
+  overflow: scroll;
+}
+.month .day {
+  padding: 12px 0;
+  margin: 0 5px;
+  min-width: 32px;
+}
+.month .day:first-of-type {
+  margin-left: 0;
+}
+.month .day > span {
+  display: block;
+}
+.month .day > span.weekday {
+  font-size: 10px;
+  font-weight: bold;
+}
+.day .appointment {
+  width: 90px;
+  padding: 5px 0;
+  color: #535353;
+  margin-bottom: 6px;
+}
+
 @media only screen and (max-width: 600px) {
   .row {
     display: block;
@@ -81,4 +141,4 @@ h3 {
   .row > .equalInput:nth-child(even) {
     margin-left: 0;
   }
-} 
+}

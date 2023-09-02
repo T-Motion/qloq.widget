@@ -1,0 +1,109 @@
+{
+    "slots":[
+       {
+          "order":0,
+          "label":"vandaag",
+          "slots":[
+             {
+                "slotId":"SLOT_3011efd3-ce7e-4576-86e2-4d2db68d1219_e37a6c81-4463-4c19-9104-0bcf69a6cbed",
+                "slotRangeLabel":"Tussen <b>16:59</b> en <b>17:44</b>",
+                "slotDay":1,
+                "slotMonth":9,
+                "slotYear":2023,
+                "estimatedTimeCost":0,
+                "estimatedKilometerCost":0
+             }
+          ]
+       },
+       {
+          "order":0,
+          "label":"morgen",
+          "slots":[
+             {
+                "slotId":"SLOT_e37a6c81-4463-4c19-9104-0bcf69a6cbed_843ef0b3-7f29-4a18-9e34-9b0e1091a29b",
+                "slotRangeLabel":"Tussen <b>08:18</b> en <b>17:44</b>",
+                "slotDay":2,
+                "slotMonth":9,
+                "slotYear":2023,
+                "estimatedTimeCost":0,
+                "estimatedKilometerCost":0
+             }
+          ]
+       },
+       {
+          "order":0,
+          "label":"03 september",
+          "slots":[
+             {
+                "slotId":"SLOT_843ef0b3-7f29-4a18-9e34-9b0e1091a29b_3c579d83-7b9b-4c36-b8d2-39b1b5ded4a4",
+                "slotRangeLabel":"Tussen <b>08:18</b> en <b>17:44</b>",
+                "slotDay":3,
+                "slotMonth":9,
+                "slotYear":2023,
+                "estimatedTimeCost":0,
+                "estimatedKilometerCost":0
+             }
+          ]
+       },
+       {
+          "order":0,
+          "label":"04 september",
+          "slots":[
+             {
+                "slotId":"SLOT_3c579d83-7b9b-4c36-b8d2-39b1b5ded4a4_8ec9653e-9038-46d3-9241-d3b9cbeac6f9",
+                "slotRangeLabel":"Tussen <b>08:18</b> en <b>17:44</b>",
+                "slotDay":4,
+                "slotMonth":9,
+                "slotYear":2023,
+                "estimatedTimeCost":0,
+                "estimatedKilometerCost":0
+             }
+          ]
+       },
+       {
+          "order":0,
+          "label":"05 september",
+          "slots":[
+             {
+                "slotId":"SLOT_8ec9653e-9038-46d3-9241-d3b9cbeac6f9_aaea731c-9af8-46cc-88df-af0a884fe177",
+                "slotRangeLabel":"Tussen <b>08:18</b> en <b>17:44</b>",
+                "slotDay":5,
+                "slotMonth":9,
+                "slotYear":2023,
+                "estimatedTimeCost":0,
+                "estimatedKilometerCost":0
+             }
+          ]
+       },
+       {
+          "order":0,
+          "label":"06 september",
+          "slots":[
+             {
+                "slotId":"SLOT_aaea731c-9af8-46cc-88df-af0a884fe177_4528e891-5bee-4038-811e-d73ed0b0bcf1",
+                "slotRangeLabel":"Tussen <b>08:18</b> en <b>17:44</b>",
+                "slotDay":6,
+                "slotMonth":9,
+                "slotYear":2023,
+                "estimatedTimeCost":0,
+                "estimatedKilometerCost":0
+             }
+          ]
+       },
+       {
+          "order":0,
+          "label":"07 september",
+          "slots":[
+             {
+                "slotId":"SLOT_4528e891-5bee-4038-811e-d73ed0b0bcf1_c727485c-a119-4c49-8340-015ffe2cccb7",
+                "slotRangeLabel":"Tussen <b>08:18</b> en <b>17:44</b>",
+                "slotDay":7,
+                "slotMonth":9,
+                "slotYear":2023,
+                "estimatedTimeCost":0,
+                "estimatedKilometerCost":0
+             }
+          ]
+       }
+    ]
+ }
